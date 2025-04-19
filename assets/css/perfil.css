@@ -6,3 +6,159 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #020101;
+}
+
+/*Cabeçalho*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+    background-color: #323232;
+}
+
+.cabecalho{
+    width: 1000px;
+    align-items: center;
+    display: flex;
+}
+
+.cabecalho a p{
+    font-size: 18px;
+    margin-left: 40px;
+    color: #ffffff;
+
+    transition: .2s;
+}
+
+.cabecalho a{
+    text-decoration: none;
+}
+
+.cabecalho a p:hover{
+    transform: scale(1.01);
+    color: #999999;
+}
+
+header div button{
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #20a30f;
+    color: #ffffff;
+
+    transition: .2s;
+}
+
+header div button:hover{
+    background-color: #35c223;
+    transform: scale(1.02);
+}
+
+img{
+    border-radius: 50%;
+    width: 80px;
+}
+
+section{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section #h1{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    width: 200px;
+    text-align: center;
+
+    color: #ffffff;
+    background-color: #323232;
+}
+
+section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: 500px;
+}
+
+section .registro{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+section .registro input[type="number"]{
+    width: 240px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+section .registro input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+section .registro button{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #999999 ;
+    color: #ffffff;
+    margin-left: 10px;
+
+    transition: .3s;
+}
+
+section .registro button:hover{
+    background-color: #6e6e6e;
+}
+
+section .perfilPessoal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    width: 500px;
+    height: 350px;
+    box-shadow: 0px 0px 40px #ffffff17;
+    background-color: #323232;
+}
+
+section .perfilPessoal img{
+    margin: 20px;
+    width: 120px;
+    border-radius: 50%;
+
+}
+
+section .perfilPessoal h1{
+    color: #ffffff;
+}
+
+section .perfilPessoal p{
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #b5b4b3;
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff5e;
+}

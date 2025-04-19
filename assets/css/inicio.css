@@ -88,6 +88,7 @@ img{
     font-weight: 800px;
     color: #ffffff;
     background-color: #20a30f;
+    cursor: pointer;
     transition: .2s;
 }
 

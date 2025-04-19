@@ -3,11 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/perfil.css">
     <title>Perfil</title>
 </head>
 <body>
-    <h1>teste</h1>
-    <button id="sair" >sair</button>
-    <script src="./assets/js/inicio.js"></script>
+    <header>
+        <div class="cabecalho">
+            <img src="./assets/images/logo.png" alt="logo">
+            <a href="/perfil.html"><p>INICIO</p></a>
+            <a href="./relatorio.html"><p>RELATÓRIO</p></a>
+        </div>
+        <div>
+            <button id="sair">Sair</button>
+        </div>
+    </header>
+    <div class="line"></div>
+    <section>
+        <h1 id="h1">Seu perfil</h1>
+        <div class="container">
+            <div class="registro">
+                <input type="number" placeholder="Registre o valor do serviço" required>
+                <button id="registrarValor">Registrar</button>
+            </div>
+            <div class="perfilPessoal">
+                <img src="./assets/images/perfil.avif" alt="fotoDePerfil">
+                <h1>Nome do Funcinário</h1>
+                <div id="valorCorte">
+                    <p>Valor de hoje: R$ 105,00</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
